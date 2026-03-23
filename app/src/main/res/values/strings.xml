@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Điện Lạnh 24h</string>
+    <string name="header_title">🔧 Điện Lạnh 24h</string>
+    <string name="header_subtitle">Dịch vụ chuyên nghiệp - Giá cả hợp lý</string>
+    <string name="search_hint">🔍 Tìm dịch vụ...</string>
+    <string name="btn_call">📞 Gọi ngay</string>
+    <string name="btn_detail">📄 Chi tiết</string>
+    <string name="btn_add">➕ Thêm</string>
+    <string name="btn_save">💾 Lưu</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_edit">✏️ Sửa</string>
+    <string name="btn_delete">🗑️ Xóa</string>
+    <string name="no_results">😕 Không tìm thấy dịch vụ nào</string>
+    <string name="confirm_delete">Bạn có chắc muốn xóa dịch vụ này?</string>
+    <string name="delete_success">Đã xóa dịch vụ</string>
+    <string name="add_success">Đã thêm dịch vụ thành công!</string>
+    <string name="edit_success">Đã cập nhật dịch vụ!</string>
+    <string name="error_empty_name">Vui lòng nhập tên dịch vụ</string>
+    <string name="error_empty_price">Vui lòng nhập giá</string>
+    <string name="error_empty_phone">Vui lòng nhập số điện thoại</string>
+</resources>
