@@ -21,15 +21,10 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".DetailActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
-
-        <activity
-            android:name=".AddServiceActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ServiceDetailActivity" android:exported="false"/>
+        <activity android:name=".ProductDetailActivity" android:exported="false"/>
+        <activity android:name=".AddServiceActivity" android:exported="false"/>
+        <activity android:name=".AddProductActivity" android:exported="false"/>
 
     </application>
 

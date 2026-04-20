@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Điện Lạnh 24h</string>
-    <string name="header_title">🔧 Điện Lạnh 24h</string>
-    <string name="header_subtitle">Dịch vụ chuyên nghiệp - Giá cả hợp lý</string>
-    <string name="search_hint">🔍 Tìm dịch vụ...</string>
+
+    <!-- Tabs -->
+    <string name="tab_services">🔧 Dịch Vụ</string>
+    <string name="tab_products">🛒 Bán Hàng</string>
+
+    <!-- Headers -->
+    <string name="header_services">🔧 Dịch Vụ Điện Lạnh</string>
+    <string name="header_products">🛒 Cửa Hàng Phụ Kiện</string>
+    <string name="header_subtitle_services">Sửa chữa - Bảo trì - Lắp đặt</string>
+    <string name="header_subtitle_products">Máy móc - Phụ kiện - Vật tư</string>
+
+    <!-- Search -->
+    <string name="search_service">🔍 Tìm dịch vụ...</string>
+    <string name="search_product">🔍 Tìm sản phẩm...</string>
+
+    <!-- Buttons -->
     <string name="btn_call">📞 Gọi ngay</string>
     <string name="btn_detail">📄 Chi tiết</string>
+    <string name="btn_buy">🛒 Mua ngay</string>
     <string name="btn_add">➕ Thêm</string>
     <string name="btn_save">💾 Lưu</string>
     <string name="btn_cancel">Hủy</string>
     <string name="btn_edit">✏️ Sửa</string>
     <string name="btn_delete">🗑️ Xóa</string>
-    <string name="no_results">😕 Không tìm thấy dịch vụ nào</string>
-    <string name="confirm_delete">Bạn có chắc muốn xóa dịch vụ này?</string>
-    <string name="delete_success">Đã xóa dịch vụ</string>
-    <string name="add_success">Đã thêm dịch vụ thành công!</string>
-    <string name="edit_success">Đã cập nhật dịch vụ!</string>
-    <string name="error_empty_name">Vui lòng nhập tên dịch vụ</string>
+
+    <!-- Messages -->
+    <string name="no_results">😕 Không tìm thấy kết quả nào</string>
+    <string name="confirm_delete">Bạn có chắc muốn xóa?</string>
+    <string name="delete_success">Đã xóa thành công</string>
+    <string name="add_success">Đã thêm thành công!</string>
+    <string name="edit_success">Đã cập nhật!</string>
+
+    <!-- Validation -->
+    <string name="error_empty_name">Vui lòng nhập tên</string>
     <string name="error_empty_price">Vui lòng nhập giá</string>
     <string name="error_empty_phone">Vui lòng nhập số điện thoại</string>
+
+    <!-- Categories -->
+    <string name="cat_all">Tất cả</string>
+    <string name="cat_air_conditioner">Máy lạnh</string>
+    <string name="cat_refrigerator">Tủ lạnh</string>
+    <string name="cat_washing_machine">Máy giặt</string>
+    <string name="cat_water_heater">Máy nước nóng</string>
+    <string name="cat_other">Khác</string>
+
+    <!-- Product Categories -->
+    <string name="cat_parts">Phụ tùng</string>
+    <string name="cat_tools">Dụng cụ</string>
+    <string name="cat_consumables">Vật tư tiêu hao</string>
 </resources>

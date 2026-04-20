@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@drawable/ic_services"
+        android:title="Dịch Vụ"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_products"
+        android:icon="@drawable/ic_products"
+        android:title="Sản Phẩm"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_transactions"
+        android:icon="@drawable/ic_home"
+        android:title="Đơn Hàng"
+        app:showAsAction="ifRoom"/>
+
+</menu>

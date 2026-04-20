@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <!-- Service Image -->
+            <!-- Product Image -->
             <androidx.cardview.widget.CardView
                 android:layout_width="90dp"
                 android:layout_height="90dp"
@@ -29,16 +29,16 @@
                 app:cardElevation="4dp">
 
                 <ImageView
-                    android:id="@+id/imgService"
+                    android:id="@+id/imgProduct"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_default_service"
+                    android:src="@drawable/ic_default_product"
                     android:scaleType="centerCrop"
-                    android:background="#E8F5E9"
-                    android:contentDescription="Service image"/>
+                    android:background="#FFF3E0"
+                    android:contentDescription="Product image"/>
             </androidx.cardview.widget.CardView>
 
-            <!-- Service Info -->
+            <!-- Product Info -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -52,20 +52,20 @@
                     android:id="@+id/tvCategory"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Máy lạnh"
+                    android:text="Phụ tùng"
                     android:textSize="11sp"
                     android:textStyle="bold"
-                    android:textColor="@color/category_text"
-                    android:background="@drawable/category_badge_service"
+                    android:textColor="@color/product_badge_text"
+                    android:background="@drawable/category_badge_product"
                     android:paddingHorizontal="10dp"
                     android:paddingVertical="4dp"/>
 
-                <!-- Service Name -->
+                <!-- Product Name -->
                 <TextView
                     android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Vệ sinh máy lạnh"
+                    android:text="Gas R410A"
                     android:textSize="17sp"
                     android:textStyle="bold"
                     android:textColor="@color/text_dark"
@@ -78,11 +78,22 @@
                     android:id="@+id/tvPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="150.000đ"
+                    android:text="350.000đ"
                     android:textSize="16sp"
                     android:textColor="@color/price_red"
                     android:textStyle="bold"
                     android:layout_marginTop="6dp"/>
+
+                <!-- Stock -->
+                <TextView
+                    android:id="@+id/tvStock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Còn 50 sản phẩm"
+                    android:textSize="12sp"
+                    android:textColor="@color/accent_green"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -94,18 +105,18 @@
             android:layout_marginTop="14dp"
             android:layout_marginBottom="14dp"/>
 
-        <!-- Action Buttons - SỬA HEIGHT TỪ 44dp LÊN 48dp -->
+        <!-- Action Buttons -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnBook"
+                android:id="@+id/btnDetail"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_weight="1"
-                android:text="📅 Đặt ngay"
+                android:text="@string/btn_detail"
                 android:textSize="13sp"
                 android:textStyle="bold"
                 android:layout_marginEnd="6dp"
@@ -114,15 +125,15 @@
                 android:minHeight="48dp"/>
 
             <Button
-                android:id="@+id/btnCall"
+                android:id="@+id/btnBuy"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_weight="1"
-                android:text="📞 Gọi ngay"
+                android:text="@string/btn_buy"
                 android:textSize="13sp"
                 android:textStyle="bold"
                 android:layout_marginStart="6dp"
-                android:background="@drawable/button_secondary"
+                android:background="@drawable/button_buy"
                 android:textColor="@color/white"
                 android:minHeight="48dp"/>
         </LinearLayout>
